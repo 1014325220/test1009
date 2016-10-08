@@ -13,16 +13,19 @@ class MySQLi implements IDatabase
 {
     function connect()
     {
+        echo 'mysqli';
         // TODO: Implement connect() method.
     }
 
     function query()
     {
+        echo 'mysqli';
         // TODO: Implement query() method.
     }
 
     function close()
     {
+        echo 'mysqli';
         // TODO: Implement close() method.
     }
     function add()
